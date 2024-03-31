@@ -1,50 +1,50 @@
-import 'tailwindcss/tailwind.css'
+import "tailwindcss/tailwind.css"
 import "../styles/globals.css";
 
-const technologies = ['Python','Django', 'Flask', 'FastAPI','JavaScript', 'React', 'React Native', 'Next.js','Tailwind CSS', 'SQL', 'MySQL', 'Postgres', 'Redshift', 'Docker', 'Git', 'AWS (Basic)' ]
+const technologies = ["Python","Django", "Flask", "FastAPI","JavaScript", "React", "React Native", "Next.js","Tailwind CSS", "SQL", "MySQL", "Postgres", "Redshift", "Docker", "Git", "AWS (Basic)" ]
 
 const Home = () => {
     return (
       <div>
         <div className="flex flex-row">
-            <div className= 'flex flex-col w-screen max-w-screen-lg mx-16 mt-24 mb-8 justify-between'>
+            <div className= "flex flex-col w-screen max-w-screen-lg mx-16 mt-24 mb-8 justify-between">
               <div className="sticky top-40 ml-24">
-                <h1 className='text-6xl text-white mb-3'>Michel Marinkovic</h1>
-                <h2 className='text-2xl text-white mb-5'>Product Owner/Technical Lead</h2>
+                <h1 className="text-6xl text-white mb-3">Michel Marinkovic</h1>
+                <h2 className="text-2xl text-white mb-5">Product Owner/Technical Lead</h2>
                 <ol className="flex flex-row">
                   <li className="my-4">
-                    <span className='border-t-2 px-4 mx-4 relative -bottom-2.5'> </span>
-                    <span className='text-white '>
-                      <a href='#about-me'>About me</a>
+                    <span className="border-t-2 px-4 mx-4 relative -bottom-2.5"> </span>
+                    <span className="text-white ">
+                      <a href="#about-me">About me</a>
                     </span>
                   </li>
                 </ol>
                 <ol className="flex flex-row">
                   <li className="my-4">
-                    <span className='border-t-2 px-4 mx-4 relative -bottom-2.5'> </span>
-                    <span className='text-white '>
+                    <span className="border-t-2 px-4 mx-4 relative -bottom-2.5"> </span>
+                    <span className="text-white ">
                       <a href="#studies">Studies</a>
                     </span>
                   </li>
                 </ol>
                 <ol className="flex flex-row">
                   <li className="my-4">
-                    <span className='border-t-2 px-4 mx-4 relative -bottom-2.5'> </span>
-                    <span className='text-white '>
+                    <span className="border-t-2 px-4 mx-4 relative -bottom-2.5"> </span>
+                    <span className="text-white ">
                       <a href="#experience">Experience</a>
                     </span>
                   </li>
                 </ol>
                 <ol className="flex flex-row">
                   <li className="my-4">
-                    <span className='border-t-2 px-4 mx-4 relative -bottom-2.5'> </span>
-                    <span className='text-white '>
-                      <a href='#courses'>Courses</a>
+                    <span className="border-t-2 px-4 mx-4 relative -bottom-2.5"> </span>
+                    <span className="text-white ">
+                      <a href="#courses">Courses</a>
                     </span>
                   </li>
                 </ol>
               </div>
-              <div className='flex flex-row gap-2 sticky bottom-24 ml-24'>
+              <div className="flex flex-row gap-2 sticky bottom-24 ml-24">
                 <span>
                   <a href="https://mail.google.com/mail/u/0/?fs=1&to=michel.marinkovic@gmail.com&tf=cm" title="Contact me">
                     <svg className="h-12 w-16"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.2" stroke="#fff" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="3 9 12 15 21 9 12 3 3 9" />  <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />  <line x1="3" y1="19" x2="9" y2="13" />  <line x1="15" y1="13" x2="21" y2="19" /></svg>
@@ -61,7 +61,7 @@ const Home = () => {
                   </a>
                 </span>
                 <span>
-                  <a href="https://drive.google.com/file/d/1-20_MnNchjnh9kSlKdxQnynfFu1ekk8l/view?usp=sharing" title='Download my CV'>
+                  <a href="https://drive.google.com/file/d/1-20_MnNchjnh9kSlKdxQnynfFu1ekk8l/view?usp=sharing" title="Download my CV">
                     <svg className="h-12 w-16"  fill="none" viewBox="0 0 24 24" stroke="#fff">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                     </svg>
@@ -71,11 +71,11 @@ const Home = () => {
             </div>
             <div className="flex flex-col w-screen max-w-screen-lg mx-12">
               <div className="mx-6 mt-36 hover:bg-[#313132] py-6 px-6 rounded-lg">
-                <h2 id='about-me' className="text-2xl text-white mb-8"> About me</h2>
+                <h2 id="about-me" className="text-2xl text-white mb-8"> About me</h2>
                 <p className="text-xl text-white flex-wrap">
-                  I'm an Industrial Engineer, that is passionate about TI. I've 4 years of experience
+                  I"m an Industrial Engineer, that is passionate about TI. I"ve 4 years of experience
                   as a Product Owner. I also love to learn about new technologies in my free time, currently
-                  I'm studying to achieve the <b>AWS Solutions Architect Certification.</b> 
+                  I"m studying to achieve the <b>AWS Solutions Architect Certification.</b> 
                 </p>
               </div>
               <div className="mx-6 mt-8 px-6 py-6 hover:bg-[#313132] rounded-lg">
@@ -93,10 +93,10 @@ const Home = () => {
               </div>
              
               <div className="hover:bg-[#313132] py-6 mb-6 mt-16 rounded-lg">
-                <h2 id='studies' className="text-2xl text-white mx-6 mb-8">Studies </h2>
+                <h2 id="studies" className="text-2xl text-white mx-6 mb-8">Studies </h2>
                 <ol className="flex flex-col">
                   <li className="mx-6">
-                    <div className=''></div>
+                    <div></div>
                     <div className="text-2xl text-white">
                       Industrial Engineering
                     </div>
@@ -111,7 +111,7 @@ const Home = () => {
               </div>
              
               <div className="hover:bg-[#313132] py-6 px-6 mb-6 mt-6 rounded-lg">
-                <h2 id="experience" className="text-2xl text-white mb-8">Experience </h2>
+                <h2 id="experience" className="text-2xl text-white mb-8">Experience</h2>
                 <div className="relative border-s border-technical-pill-color">
                   <ol className="flex flex-col">
                     <div className="absolute w-3 h-3 bg-technical-pill-color rounded-full mt-1.5 -start-1.5 border border-technical-pill-color"></div>
@@ -149,7 +149,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="hover:bg-[#313132] py-6 px-6 mb-6 rounded-lg">
-                <h2 id = 'courses' className="text-2xl text-white mb-8">Courses </h2>
+                <h2 id ="courses" className="text-2xl text-white mb-8">Courses</h2>
                 <div className="relative border-s border-technical-pill-color">
                   <ol className="flex flex-col">
                     <div className="absolute w-3 h-3 bg-technical-pill-color rounded-full mt-1.5 -start-1.5 border border-technical-pill-color"></div>
@@ -199,7 +199,7 @@ const Home = () => {
                   <div className="absolute w-3 h-3 bg-technical-pill-color rounded-full mt-1.5 -start-1.5 border border-technical-pill-color"></div>
                     <li className="mx-6">
                       <div className="text-2xl text-white">
-                        SQL and PostgreSQL: The Complete Developer's Guide
+                        SQL and PostgreSQL: The Complete Developer"s Guide
                       </div>
                       <div className="text-lg text-technical-pill-color">
                         <a href="https://www.udemy.com/certificate/UC-352be351-ce36-4e74-8629-bfcc519ad8db/" className="text-technical-pill-color">Certificate</a>
