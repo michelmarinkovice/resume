@@ -73,9 +73,9 @@ const Home = () => {
               <div className="mx-6 mt-36 hover:bg-[#313132] py-6 px-6 rounded-lg">
                 <h2 id="about-me" className="text-2xl text-white mb-8"> About me</h2>
                 <p className="text-xl text-white flex-wrap">
-                  I'm an Industrial Engineer, that is passionate about TI. I've 4 years of experience
+                  I&apos;m an Industrial Engineer, that is passionate about TI. I&apos;ve 4 years of experience
                   as a Product Owner. I also love to learn about new technologies in my free time, currently
-                  I'm studying to achieve the <b>AWS Solutions Architect Certification.</b> 
+                  I&apos;m studying to achieve the <b>AWS Solutions Architect Certification.</b> 
                 </p>
               </div>
               <div className="mx-6 mt-8 px-6 py-6 hover:bg-[#313132] rounded-lg">
@@ -199,7 +199,7 @@ const Home = () => {
                   <div className="absolute w-3 h-3 bg-technical-pill-color rounded-full mt-1.5 -start-1.5 border border-technical-pill-color"></div>
                     <li className="mx-6">
                       <div className="text-2xl text-white">
-                        SQL and PostgreSQL: The Complete Developer's Guide
+                        SQL and PostgreSQL: The Complete Developer&apos;s Guide
                       </div>
                       <div className="text-lg text-technical-pill-color">
                         <a href="https://www.udemy.com/certificate/UC-352be351-ce36-4e74-8629-bfcc519ad8db/" className="text-technical-pill-color">Certificate</a>
