@@ -1,8 +1,5 @@
-
-import NavBar from "../components/NavBar";
 import 'tailwindcss/tailwind.css'
 import "../styles/globals.css";
-import GradientBackground from "../components/GradientBackground";
 
 const technologies = ['Python','Django', 'Flask', 'FastAPI','JavaScript', 'React', 'React Native', 'Next.js','Tailwind CSS', 'SQL', 'MySQL', 'Postgres', 'Redshift', 'Docker', 'Git', 'AWS (Basic)' ]
 
@@ -17,7 +14,17 @@ const Home = () => {
                 <ol className="flex flex-row">
                   <li className="my-4">
                     <span className='border-t-2 px-4 mx-4 relative -bottom-2.5'> </span>
-                    <span className='text-white '>About me</span>
+                    <span className='text-white '>
+                      <a href='#about-me'>About me</a>
+                    </span>
+                  </li>
+                </ol>
+                <ol className="flex flex-row">
+                  <li className="my-4">
+                    <span className='border-t-2 px-4 mx-4 relative -bottom-2.5'> </span>
+                    <span className='text-white '>
+                      <a href="#studies">Studies</a>
+                    </span>
                   </li>
                 </ol>
                 <ol className="flex flex-row">
@@ -31,7 +38,9 @@ const Home = () => {
                 <ol className="flex flex-row">
                   <li className="my-4">
                     <span className='border-t-2 px-4 mx-4 relative -bottom-2.5'> </span>
-                    <span className='text-white '>Courses</span>
+                    <span className='text-white '>
+                      <a href='#courses'>Courses</a>
+                    </span>
                   </li>
                 </ol>
               </div>
@@ -58,19 +67,17 @@ const Home = () => {
                     </svg>
                   </a>
                 </span>
-               
               </div>
             </div>
             <div className="flex flex-col w-screen max-w-screen-lg mx-12">
               <div className="mx-6 mt-36 hover:bg-[#313132] py-6 px-6 rounded-lg">
-                <h2 className="text-2xl text-white mb-8"> About me</h2>
+                <h2 id='about-me' className="text-2xl text-white mb-8"> About me</h2>
                 <p className="text-xl text-white flex-wrap">
                   I'm an Industrial Engineer, that is passionate about TI. I've 4 years of experience
                   as a Product Owner. I also love to learn about new technologies in my free time, currently
                   I'm studying to achieve the <b>AWS Solutions Architect Certification.</b> 
                 </p>
               </div>
-              
               <div className="mx-6 mt-8 px-6 py-6 hover:bg-[#313132] rounded-lg">
                 <h2 className="text-2xl text-white mb-8">What technologies do I know?</h2>
                 <div className="flex flex-wrap gap-4">
@@ -142,7 +149,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="hover:bg-[#313132] py-6 px-6 mb-6 rounded-lg">
-                <h2 className="text-2xl text-white mb-8">Courses </h2>
+                <h2 id = 'courses' className="text-2xl text-white mb-8">Courses </h2>
                 <div className="relative border-s border-technical-pill-color">
                   <ol className="flex flex-col">
                     <div className="absolute w-3 h-3 bg-technical-pill-color rounded-full mt-1.5 -start-1.5 border border-technical-pill-color"></div>
