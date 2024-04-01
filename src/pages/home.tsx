@@ -6,7 +6,7 @@ const technologies = ["Python","Django", "Flask", "FastAPI","JavaScript", "React
 const Home = () => {
     return (
       <div>
-        <div className="flex flex-row">
+        <div className="flex xl:flex-row md:flex-col">
             <div className= "flex flex-col w-screen max-w-screen-lg mx-16 mt-24 mb-8 justify-between">
               <div className="sticky top-40 ml-24">
                 <h1 className="text-6xl text-white mb-3">Michel Marinkovic</h1>
