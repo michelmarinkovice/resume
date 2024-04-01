@@ -9,7 +9,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row">
             <div className= "flex flex-col w-screen max-w-screen-lg mx-12 mt-24 justify-between">
               <div className="md:sticky top-40 ml-4 md:ml-12">
-                <h1 className="text-6xl text-white mb-3">Michel Marinkovic</h1>
+                <h1 className="text-5xl text-white mb-3">Michel Marinkovic</h1>
                 <h2 className="text-2xl text-white mb-5">Product Owner/Technical Lead</h2>
                 <ol className="flex flex-row">
                   <li className="my-4">
@@ -22,7 +22,7 @@ const Home = () => {
                 <ol className="flex flex-row">
                   <li className="my-4">
                     <span className="border-t-2 px-4 mx-4 relative -bottom-2.5"> </span>
-                    <span className="text-white ">
+                    <span className="text-white">
                       <a href="#studies">Studies</a>
                     </span>
                   </li>
@@ -70,7 +70,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-col w-screen max-w-screen-lg mx-4 md:mx-12">
-              <div className="mx-6 mt-36 hover:bg-[#313132] py-6 px-6 rounded-lg">
+              <div className="mt-36 hover:bg-[#313132] py-6 px-12 rounded-lg">
                 <h2 id="about-me" className="text-2xl text-white mb-8"> About me</h2>
                 <p className="text-xl text-white flex-wrap">
                   I&apos;m an Industrial Engineer, that is passionate about TI. I&apos;ve 4 years of experience
@@ -78,9 +78,9 @@ const Home = () => {
                   I&apos;m studying to achieve the <b>AWS Solutions Architect Certification.</b> 
                 </p>
               </div>
-              <div className="mx-6 mt-8 px-6 py-6 hover:bg-[#313132] rounded-lg">
-                <h2 className="text-2xl text-white mb-8">What technologies do I know?</h2>
-                <div className="flex flex-wrap gap-4">
+              <div className="mt-8 px-6 py-6 hover:bg-[#313132] rounded-lg">
+                <h2 className="mx-6 text-2xl text-white mb-8">What technologies do I know?</h2>
+                <div className="flex flex-wrap gap-4 mx-6">
                   {technologies.map((item,i)=>{
                     return( 
                       <div key ={i} className="px-2 py-0.5 text-xl bg-technical-pill-color rounded-lg text-white hover:brightness-[120%]">
