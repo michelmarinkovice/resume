@@ -7,8 +7,8 @@ const Home = () => {
     return (
       <div>
         <div className="flex flex-col md:flex-row">
-            <div className= "flex flex-col w-screen max-w-screen-lg mx-12 mt-24 mb-8 justify-between">
-              <div className="md:sticky top-40 ml-12">
+            <div className= "flex flex-col w-screen max-w-screen-lg mx-12 mt-24 justify-between">
+              <div className="md:sticky top-40 ml-4 md:ml-12">
                 <h1 className="text-6xl text-white mb-3">Michel Marinkovic</h1>
                 <h2 className="text-2xl text-white mb-5">Product Owner/Technical Lead</h2>
                 <ol className="flex flex-row">
@@ -44,7 +44,7 @@ const Home = () => {
                   </li>
                 </ol>
               </div>
-              <div className="flex flex-row gap-4 md:sticky bottom-24 ml-12 pt-24">
+              <div className="flex flex-row gap-4 md:sticky bottom-24 ml-4 md:ml-12 pt-24">
                 <span>
                   <a href="https://mail.google.com/mail/u/0/?fs=1&to=michel.marinkovic@gmail.com&tf=cm" title="Contact me">
                     <svg className="h-12 w-16"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.2" stroke="#fff" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="3 9 12 15 21 9 12 3 3 9" />  <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />  <line x1="3" y1="19" x2="9" y2="13" />  <line x1="15" y1="13" x2="21" y2="19" /></svg>
@@ -69,7 +69,7 @@ const Home = () => {
                 </span>
               </div>
             </div>
-            <div className="flex flex-col w-screen max-w-screen-lg mx-12">
+            <div className="flex flex-col w-screen max-w-screen-lg mx-4 md:mx-12">
               <div className="mx-6 mt-36 hover:bg-[#313132] py-6 px-6 rounded-lg">
                 <h2 id="about-me" className="text-2xl text-white mb-8"> About me</h2>
                 <p className="text-xl text-white flex-wrap">
@@ -93,9 +93,9 @@ const Home = () => {
               </div>
              
               <div className="hover:bg-[#313132] py-6 mb-6 mt-16 rounded-lg">
-                <h2 id="studies" className="text-2xl text-white mx-6 mb-8">Studies</h2>
+                <h2 id="studies" className="text-2xl text-white mx-12 mb-8">Studies</h2>
                 <ol className="flex flex-col">
-                  <li className="mx-6">
+                  <li className="mx-12">
                     <div></div>
                     <div className="text-2xl text-white">
                       Industrial Engineering
@@ -111,7 +111,7 @@ const Home = () => {
               </div>
              
               <div className="hover:bg-[#313132] py-6 px-6 mb-6 mt-6 rounded-lg">
-                <h2 id="experience" className="text-2xl text-white mb-8">Experience</h2>
+                <h2 id="experience" className="text-2xl text-white mb-8 mx-6">Experience</h2>
                 <div className="relative border-s border-technical-pill-color">
                   <ol className="flex flex-col">
                     <div className="absolute w-3 h-3 bg-technical-pill-color rounded-full mt-1.5 -start-1.5 border border-technical-pill-color"></div>
@@ -149,7 +149,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="hover:bg-[#313132] py-6 px-6 mb-6 rounded-lg">
-                <h2 id ="courses" className="text-2xl text-white mb-8">Courses</h2>
+                <h2 id ="courses" className="text-2xl text-white mb-8 mx-6">Courses</h2>
                 <div className="relative border-s border-technical-pill-color">
                   <ol className="flex flex-col">
                     <div className="absolute w-3 h-3 bg-technical-pill-color rounded-full mt-1.5 -start-1.5 border border-technical-pill-color"></div>
