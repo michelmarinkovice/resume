@@ -7,7 +7,7 @@ const Home = () => {
     return (
       <div>
         <div className="flex flex-col md:flex-row">
-            <div className= "flex flex-col w-screen max-w-screen-lg mx-12 mt-24 justify-between">
+            <div className= "flex flex-col w-screen max-w-screen-lg px-12 md:mx-12 mt-24 justify-between">
               <div className="md:sticky top-40 ml-4 md:ml-12">
                 <h1 className="text-5xl text-white mb-3">Michel Marinkovic</h1>
                 <h2 className="text-2xl text-white mb-5">Product Owner/Technical Lead</h2>
