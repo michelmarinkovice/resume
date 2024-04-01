@@ -6,9 +6,9 @@ const technologies = ["Python","Django", "Flask", "FastAPI","JavaScript", "React
 const Home = () => {
     return (
       <div>
-        <div className="flex xl:flex-row md:flex-col">
-            <div className= "flex flex-col w-screen max-w-screen-lg mx-16 mt-24 mb-8 justify-between">
-              <div className="sticky top-40 ml-24">
+        <div className="flex flex-col md:flex-row">
+            <div className= "flex flex-col w-screen max-w-screen-lg mx-12 mt-24 mb-8 justify-between">
+              <div className="md:sticky top-40 ml-12">
                 <h1 className="text-6xl text-white mb-3">Michel Marinkovic</h1>
                 <h2 className="text-2xl text-white mb-5">Product Owner/Technical Lead</h2>
                 <ol className="flex flex-row">
@@ -44,7 +44,7 @@ const Home = () => {
                   </li>
                 </ol>
               </div>
-              <div className="flex flex-row gap-2 sticky bottom-24 ml-24">
+              <div className="flex flex-row gap-4 md:sticky bottom-24 ml-12 pt-24">
                 <span>
                   <a href="https://mail.google.com/mail/u/0/?fs=1&to=michel.marinkovic@gmail.com&tf=cm" title="Contact me">
                     <svg className="h-12 w-16"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.2" stroke="#fff" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="3 9 12 15 21 9 12 3 3 9" />  <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />  <line x1="3" y1="19" x2="9" y2="13" />  <line x1="15" y1="13" x2="21" y2="19" /></svg>
